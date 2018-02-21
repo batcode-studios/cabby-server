@@ -45,6 +45,11 @@ module.exports = {
 						}
 					}
 				}
+			},
+			auth: {
+				firebase: 'parse-server-firebase-auth-adapter',
+				databaseURL: 'https://cabby-69572.firebaseio.com',
+				credential: __base + 'utils/firebase-credential.json'
 			}
 		})
 	},
